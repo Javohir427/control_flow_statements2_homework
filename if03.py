@@ -8,10 +8,10 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if a>b and b>c or a<b and b<c:
+    if a>=b and b>=c or a<=b and b<=c:
         return ('Second number')
-    if b>a and a>c or b<a and a<c:
+    if b>=a and a>=c or b<=a and a<=c:
         return ('First number')
-    if a>c and c>b or a<c and c<b:
+    if a>=c and c>=b or a<=c and c<=b:
         return ('Third number')
-print (main(1,5,3))
+print (main(5,5,3))
