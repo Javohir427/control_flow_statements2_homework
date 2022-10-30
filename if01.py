@@ -10,10 +10,8 @@ def main(a,b,c):
     """
     if a>b and a>c:
         return ('First number')
-    else:
-        if b>a and b>c:
-           return ('Second number')
-        else:
-             c>a and c>b
+    elif b>a and b>c:
+        return ('Second number')
+    elif c>a and c>b:
         return ('Third number')
-print(main(7,-9,3)) 
+print(main(4,-5,5)) 
