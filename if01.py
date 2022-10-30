@@ -16,4 +16,4 @@ def main(a,b,c):
         else:
              c>a and c>b
         return ('Third number')
-print(main(-7,-9,-3)) 
+print(main(7,-9,3)) 
