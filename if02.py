@@ -15,4 +15,4 @@ def main(a,b,c):
     if a>c and b>c:
         return ('Third number')
 
-print(main(8,5,7))
+print(main(-8,-5,-7))
