@@ -21,9 +21,11 @@ def main(number):
     if number == 3:
         return "Wednesday"
     if number == 4:
-        return "Friday"
+        return "Thursday"
     if number == 5:
-        return "Saturday"
+        return "Friday"
     if number ==6:
+        return "Saturday"
+    if number == 7:
         return "Sunday"
 print(main(2)) 
