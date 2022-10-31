@@ -26,4 +26,4 @@ def main(number):
         return "Saturday"
     if number ==6:
         return "Sunday"
-print(main(5)) 
+print(main(2)) 
