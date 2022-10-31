@@ -14,4 +14,4 @@ def main(a,b,c):
         return ('Second number')
     elif c>=a and c>=b:
         return ('Third number')
-print(main(4,-6,5)) 
+print(main(7,-6,5)) 
