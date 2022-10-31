@@ -14,4 +14,4 @@ def main(a,b,c):
         return ('First number')
     if a>=c and c>=b or a<=c and c<=b:
         return ('Third number')
-print (main(5,5,3))
+print (main(5,5,3))  
